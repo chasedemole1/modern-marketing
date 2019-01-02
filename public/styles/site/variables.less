@@ -1,0 +1,110 @@
+// Override Bootstrap variables in this file, e.g.
+
+@font-size-base: 14px;
+
+//Prevents gray background color for dropdown item
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color:transparent;
+  color:white;
+}
+
+//Prevents gray line between navbar and dropdown
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color:transparent;
+}
+
+//Makes the dropdown menu fit the entire screenview
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+  max-height: none;
+  height:100vh;
+}
+
+//Makes the hamburger not turn gray when clicked
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color:transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color:#000444;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:white;
+  height:50%;
+  width:50%;
+}
+
+.navbar-nav {
+  margin:10vh auto;
+  height:50%;
+  width:40%;
+}
+
+.nav>li {
+  display: inline-block;
+  width:30%;
+  height:33%;
+  font-size:40px;
+  margin:30px;
+}
+
+.Home {
+  
+}
+
+.Blog {
+  float:right;
+}
+
+.Contact {
+  
+}
+
+.About {
+
+}
+
+.Services {
+  float:right;
+}
+
+.post {
+  //width:40%;
+  //float:left;
+  padding:25px;
+  border-radius:25px;
+  margin:10px 10px 30px 10px;
+  background:white;
+  box-shadow:1px 1px 5px #84939e;
+}
+
+.post-page {
+  width:100%;
+  padding:40px;
+  margin:10px;
+  background:white;
+  box-shadow:1px 1px 5px #84939e;
+}
+
+.post-page > p {
+  font-size:18px;
+  margin:0 auto;
+  width:80%;
+  margin-top:80px;
+}
+
+header > h1 {
+  width:80%;
+  margin:20px auto 40px auto;
+}
+
+.img-responsive {
+  width:80%;
+  margin:0 auto;
+}
+
+.pull-right {
+  float:none;
+  max-height:400px;
+  max-width:100%;
+}

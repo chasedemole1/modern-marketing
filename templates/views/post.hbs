@@ -1,0 +1,18 @@
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<article>
+				<div class="post post-page">
+					<header>
+						<h1>{{data.post.title}}</h1>
+					</header>
+					{{#if data.post.image}}<img src="{{{cloudinaryUrl data.post.image crop='fit' }}}" class="img-responsive">{{/if}}
+					{{{data.post.content.extended}}}
+				</div>
+			</article>
+
+			<hr>
+			<p><a href="/blog">&larr; back to the blog</a></p>
+		</div>
+	</div>
+</div>
